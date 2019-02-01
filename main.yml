@@ -1,0 +1,7 @@
+- name: Test
+  hosts: all
+  gather_facts: False
+  tasks:
+    - name: Hello Message
+      debug:
+        msg: "Hello OpenIO!"
