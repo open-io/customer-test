@@ -8,3 +8,6 @@
     - name: Job ID
       debug:
         msg: "{{ dashboard_job_id }}"
+    - name: Vars
+      debug:
+        msg: "{{ vars | to_json }}"
