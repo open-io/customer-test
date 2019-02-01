@@ -5,3 +5,6 @@
     - name: Hello Message
       debug:
         msg: "Hello OpenIO!"
+    - name: Job ID
+      debug:
+        msg: "{{ dashboard_job_id }}"
